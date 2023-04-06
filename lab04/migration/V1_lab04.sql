@@ -85,7 +85,10 @@ CREATE TABLE adres (
   kraj varchar(25) NOT NULL,
   obszar_id int UNIQUE NOT NULL
 );
-
+CREATE TABLE obszar (
+  id serial PRIMARY KEY,
+  nazwa varchar(100) NOT NULL
+);
 INSERT INTO
   uzytkownik (imie, nazwisko, email, nrTelefonu)
 VALUES
@@ -179,4 +182,4 @@ VALUES
   ('Łostowice');
   SELECT * FROM obszar;
 SELECT * FROM adres;
-SELECT * FROM użytkownik;
+SELECT * FROM uzytkownik;
