@@ -96,7 +96,7 @@ VALUES
   ('Darek', 'Długosz', 'ddlu@ic.pl', '162578237'),
   ('Kaya', 'Fisher', 'mrta@gb.com', '801136476');
 INSERT INTO
-  pasazer (uzytkownik_id, preferowanyTypPlatnosci)
+  pasazer (uzytkownik, preferowanyTypPlatnosci)
 VALUES
   ('1', '1'),
   ('2', '2'),
